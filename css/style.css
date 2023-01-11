@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(89.93deg, #060606, rgb(61, 61, 61));
+}
+
+.header_menu {
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 5vw;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+
+.header_menu_text {
+    margin-left: 6vw;
+}
+
+.antievil-header-logo_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.antievil-img {
+    margin-left: 2vw;
+    margin-top: 20px;
+}
+
+.antievil-logo-text {
+    margin-left: 2vw;
+    margin-top: 20px;
+
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.antievil-img_main {
+    margin-left: 10vw;
+    margin-top: 60px;
+    filter: drop-shadow(0px 4px 10px rgba(255, 0, 0, 0.25));
+}
+
+.antievil-logo-text_main {
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 60px;
+    font-size: 24px;
+    margin-left: 1vw;
+}
+
+.antievil-text_logo-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.antievil-logo-text_main-about_bot {
+    font-size: 24px;
+    color: white;
+    font-family: 'Raleway', sans-serif;  
+}
+
+.about_bot {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+
+.dbd-ru {
+    color: white;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+
+    margin-left: 10vw;
+    margin-top: 120px;
+}
+
+.dbd-ru_container {
+    background-color: #282626;
+    width: 350px;
+    height: 100px;
+
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dbd-img {
+    width: 90px;
+    height: 90px;
+
+    padding-left: 40px;
+}
+
+.dbd-ru_name {
+    padding-left: 10px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.dbd-ru_count-members {
+    color: #DB9C9C;
+    letter-spacing: 1px;
+}
