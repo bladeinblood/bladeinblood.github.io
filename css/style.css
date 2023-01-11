@@ -113,3 +113,36 @@ body {
     color: #DB9C9C;
     letter-spacing: 1px;
 }
+
+.spans {
+    margin-left: 60px;
+    
+}
+
+.massban_test {
+    color: white;
+    
+    margin-left: 20px;
+}
+
+.antievil_functions {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 70px;
+    margin-left: 10vw;
+}
+
+.lines {
+    background-color: grey;
+    height: 0.3px;
+    width: 350px;
+}
+
+.massban_button, .test1_button, .test2_button {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.massban_button:hover, .test1_button:hover, .test2_button:hover {
+    cursor: pointer;
+}
