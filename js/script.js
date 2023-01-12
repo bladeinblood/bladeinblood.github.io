@@ -25,3 +25,12 @@ test2_btn.onclick = () => {
         antievil_preview.setAttribute('src', 'img/functions/test2.png');
     };
 }
+
+const scrollPositionOld = 0;
+let antievil_functions_container = document.getElementsByClassName('antievil_functions')[0]
+window.onscroll = () => {
+    const scrollPositionNew = document.documentElement.scrollTop;
+    if (scrollPositionNew > scrollPositionOld) {
+        antievil_functions_container.setAttribute('style', 'animation: antievil_functions_departure 1s both')
+    }
+}

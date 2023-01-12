@@ -74,7 +74,7 @@ body {
     margin-left: 10vw;
 }
 
-.dbd-ru {
+.text_ {
     color: white;
 
     font-family: 'Roboto Condensed', sans-serif;
@@ -89,11 +89,21 @@ body {
     width: 350px;
     height: 100px;
 
-    margin-left: 10vw;
+    animation: dbd_ru_container_departure 1s both;
     border-radius: 15px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+@keyframes dbd_ru_container_departure {
+    0% {
+        margin-left: -200vh;
+    }
+    100% {
+        margin-left: 10vw;
+    }
 }
 
 .dbd-img {
@@ -116,7 +126,6 @@ body {
 
 .spans {
     margin-left: 60px;
-    
 }
 
 .massban_test {
@@ -128,8 +137,17 @@ body {
 .antievil_functions {
 
     font-family: 'Roboto Condensed', sans-serif;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 10vw;
+}
+
+@keyframes antievil_functions_departure {
+    0% {
+        margin-left: -80vw;
+    }
+    100% {
+        margin-left: 10vw;
+    }
 }
 
 .lines {
@@ -145,4 +163,44 @@ body {
 
 .massban_button:hover, .test1_button:hover, .test2_button:hover {
     cursor: pointer;
+}
+
+.qazaqstan-discord_container {
+    max-width: 1200px;
+    background-color: #282626;
+    width: 350px;
+    height: 100px;
+
+    margin-top: 30px;
+    animation: dbd_ru_container_departure 1s both;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qazaqstan-img {
+    width: 90px;
+    border-radius: 10px;
+    height: 90px;
+
+    padding-left: 40px;
+}
+
+.qazaqstan-discord_name {
+    padding-left: 10px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.qazaqstan-discord_count-members {
+    color: #DB9C9C;
+    letter-spacing: 1px;
+}
+
+@keyframes change_avatar-name {
+    0% {
+
+    }
 }
